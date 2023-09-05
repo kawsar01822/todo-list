@@ -8,11 +8,6 @@ document.querySelector('#addTask').addEventListener("click", function(){
     items.append(listItem);
 });
 
-
-// document.querySelector('.delete').addEventListener("click", function(evt){
-//     evt.target.closest('li').remove();
-// });
-
 document.querySelector('.complete-list ul').addEventListener("click", function(evt){
     evt.target.closest('li').remove();
 });
